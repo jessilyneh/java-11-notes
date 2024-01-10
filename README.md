@@ -32,7 +32,18 @@ public class Main {
 - Classes começam sempre com letra maiúscula, e no restante, camel case.
 - Métodos e variáveis começam com letra minúscula
 - Constantes em caixa alta
-- 
+
+## Gerenciamento de memória
+
+- A memória é alocada e desalocada automaticamente;
+- Objetos são retidos na memória até que sejam "desreferenciados" e são elegiveis ao coletor de lixo quando perdem sua referência;
+- Variáveis locais e chamadas de funções são armazenadas na memória stack;
+- Objetos e variáveis de instancia são armazenadas na memoria heap;
+> Variáveis de instância são declaradas dentro de uma classe, mas fora de um método, construtor ou bloco e sempre obtêm um valor padrão.
+  
+### Garbage collector
+(in progress)
 
 ## Referências
 [New Features in Java 11](https://www.baeldung.com/java-11-new-features)
+[DIFERENÇA ENTRE VARIÁVEL DE INSTÂNCIA E VARIÁVEL LOCAL](https://acervolima.com/diferenca-entre-variavel-de-instancia-e-variavel-local/)
